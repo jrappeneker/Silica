@@ -9,6 +9,6 @@ let package = Package(
         .package(url: "https://github.com/PureSwift/Cairo.git", from: "1.0.0")
     ],
     targets: [
-        Target(name: "Silica")
+        .target(name: "Silica")
     ]
 )
